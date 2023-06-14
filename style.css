@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://img.freepik.com/premium-photo/close-up-calculator-business-working-desk-dark-background_35675-840.jpg?w=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: 'Righteous', cursive;
+}
+
+.inptContainer {
+    backdrop-filter: blur(100px) !important;
+    border-radius: 15px;
+}
+
+.btn1 {
+    border: #895cf2;
+    background-image: linear-gradient(to right, #895cf2 0%, #ffabf4 0%, #895cf2 100%);
+}
+
+.btn1:hover {
+    background-image: linear-gradient(to right, #ffabf4 0%, #895cf2 50%, #895cf2 100%);
+}
+
+.btn2 {
+    border: #895cf2;
+    background: linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+}
+
+.btn2:hover {
+    border: #895cf2;
+    background: linear-gradient(45deg, rgba(255, 53, 127, 1)10%, rgba(87, 111, 230, 1) 40%, rgba(59, 173, 227, 1) 50%);
+}
+
+h2 {
+    animation: Color 6s linear infinite;
+
+}
+
+@keyframes Color {
+
+    0% {
+        color: #4FC1E9;
+    }
+
+    25% {
+        color: #FC6E51;
+    }
+
+    40% {
+        color: #ED5565;
+    }
+
+    100% {
+        color: #8861eb;
+    }
+}
